@@ -2,15 +2,15 @@
 
  :deps {org.clojure/clojure {:mvn/version "1.12.0"}
         commons-codec/commons-codec {:mvn/version "1.22.1"}
-        org.bouncycastle/bcprov-jdk18on {:mvn/version "1.85.2"}
-        org.bouncycastle/bcpkix-jdk18on {:mvn/version "1.85"}
+        org.bouncycastle/bcprov-jdk18on {:mvn/version "1.86"}
+        org.bouncycastle/bcpkix-jdk18on {:mvn/version "1.86"}
         clj-http/clj-http {:mvn/version "3.13.1"}}
 
  :aliases
  {:test
   {:extra-paths ["test"]
    :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}
-                org.slf4j/slf4j-nop {:mvn/version "2.0.18"}}
+                org.slf4j/slf4j-nop {:mvn/version "2.0.20"}}
    :main-opts ["-m" "kaocha.runner"]}
 
   :1.10 {:override-deps {org.clojure/clojure {:mvn/version "1.10.3"}}}
