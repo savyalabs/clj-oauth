@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [1.10.1] - 2026-10-04
+
+### Changed
+
+- Bump BouncyCastle `bcprov-jdk18on` and `bcpkix-jdk18on` to 1.86.
+
 ## [1.10.0] - 2026-08-30
 
 ### Fixed
