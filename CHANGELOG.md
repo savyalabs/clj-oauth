@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [1.10.2] - 2026-11-03
+
+### Changed
+
+- Bump dependencies: commons-codec 1.23.0.
+
 ## [1.10.1] - 2026-10-04
 
 ### Changed
