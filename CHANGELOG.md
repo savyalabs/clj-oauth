@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [1.10.3] - 2026-11-16
+
+### Changed
+
+- Bump bouncycastle to 1.87.
+
 ## [1.10.2] - 2026-11-03
 
 ### Changed
